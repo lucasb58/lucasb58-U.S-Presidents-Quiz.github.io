@@ -1,17 +1,15 @@
 
 
 $(document).ready(function() {	
-	$("#p1").click(function(){
-  $("#p2").slideToggle("slow");
-});
-$("#p1").click(function(){
+	$(".1").click(function(){
+  $("#p1").slideToggle("slow");
   $(".GW").slideToggle("slow");
 });
 
-$("#p3").click(function(){
-  $("#p4").slideToggle("slow");
+$(".a1").click(function(){
+  $(".a1").addClass("green");
 });
-$("#p3").click(function(){
-  $(".JA").slideToggle("slow");
+$(".b1").click(function(){
+  $(".b1").addClass("red");
 });
 });

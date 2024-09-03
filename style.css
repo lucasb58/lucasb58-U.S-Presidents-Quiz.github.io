@@ -1,19 +1,31 @@
 body {
-	background-color: dodgerblue;
+	background-color: lightskyblue;
 }
 
-#p2 {
+#p1 {
 display: none;
 } 
-
-.GW {
-display: none;
-} 
-
-#p4{
-display: none;
+img{
+	display: none;
 }
 
-.JA{
-display: none;
+
+
+.green{
+	color: seagreen;
+}
+.red{
+	color: red;
+}
+
+ p{
+  font-family: "Times New Roma", serif;
+}
+
+h1{
+	font-family: "Times New Roman", serif;
+}
+
+h2 {
+	font-family: "Times New Roman", serif;
 }
