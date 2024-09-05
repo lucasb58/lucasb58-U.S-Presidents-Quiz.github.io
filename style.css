@@ -3,11 +3,22 @@ body {
 }
 
 div {
-display: none;
+	display: none;
+	background-color: cornflowerblue;
+	background-size: 450px 100px;
+  	border: 10px solid black;
+  	padding: 50px;
+  	margin: 20px;
 } 
 
-
-
+img {
+	width: 300px;
+  	border: 15px solid black;
+  	padding: 50px;
+  	margin: 20px;
+  	background-color: saddlebrown;
+  	
+}
 
 .green{
 	color: seagreen;
@@ -17,7 +28,8 @@ display: none;
 }
 
  p{
-  font-family: "Times New Roma", serif;
+  	font-family: "Times New Roma", serif;
+  	display: block; 	
 }
 
 h1{
@@ -25,5 +37,9 @@ h1{
 }
 
 h2 {
+	font-family: "Times New Roman", serif;
+}
+
+h3 {
 	font-family: "Times New Roman", serif;
 }
